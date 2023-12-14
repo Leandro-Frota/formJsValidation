@@ -52,13 +52,13 @@ if(password2===""){
     password2Error.textContent="";
 }
 
-if(password2!==password2){
+if(password2!==password){
     password2Error.textContent = "Password do not match"
 }else{
     password2Error.textContent="";
 }
 
-if(checkbox===''){
+if(checkbox=== false){
     checkBoxError.textContent = "Pleaser check the box";
 }else{
     checkBoxError.textContent="";
